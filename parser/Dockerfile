@@ -14,8 +14,8 @@ RUN pip3 install --upgrade pip &&\
     python3 -m spacy download en_core_web_sm &&\
     python3 -m spacy download nb_core_news_sm
 
-COPY ./src ./app
-WORKDIR ./app
+COPY ./src /app
+WORKDIR /app
 
 EXPOSE 8085
 

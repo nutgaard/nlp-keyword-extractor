@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Welcome to the NLP TextAnalyzer"
+    return "Welcome to the NLP TextAnalyzer..."
 
 @app.route("/analyze", methods=['POST'])
 def analyze():
