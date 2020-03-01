@@ -1,0 +1,4 @@
+flask==1.1.1
+spacy==2.2.3
+spacy-langdetect==0.1.2
+spacy-lookups-data==0.2.0

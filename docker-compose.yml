@@ -1,0 +1,6 @@
+version: '3'
+services:
+  parser:
+    build: ./parser
+    ports:
+      - '8085:8085'
